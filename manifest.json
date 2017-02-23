@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Time Until Tab",
+  "description": "This shows time remaining until a certain date on the new tab page.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "chrome_url_overrides" : {
+    "newtab": "timePage.html"
+  },
+  "permissions": [
+  ]
+}
